@@ -1,5 +1,6 @@
 {
     "disableDependencyDiscovery": "1",
-    "cursorPosition": "50,0",
-    "scrollLine": "18"
+    "cursorPosition": "67,79",
+    "scrollLine": "54",
+    "ignored_words": "br,pdf\n"
 }

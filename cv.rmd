@@ -46,13 +46,11 @@ Aside
 ================================================================================
 
 ```{r}
-cat("Experience Network, by category and year.")
-```
-
-```{r}
 # Build interactive network of positions colored by section
 # and connected if they occurred in the same year
 datadrivencv::build_network_logo(CV$entries_data)
+
+cat("Above network graph shows connections between experiences.")
 ```
 
 
@@ -61,9 +59,10 @@ datadrivencv::build_network_logo(CV$entries_data)
 if(params$pdf_mode){
   cat("View this CV online with links at _nickstrayer.me/datadrivencv/_")
 } else {
-  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/RyanVidegar-Laird/CV/raw/master/laird_cv.pdf)")
+  cat("[<i class='fas fa-download'></i> Download a PDF of this CV](https://github.com/RyanVidegar-Laird/CV/raw/main/laird_cv.pdf)")
 }
 ```
+
 
 Contact {#contact}
 --------------------------------------------------------------------------------
@@ -100,7 +99,7 @@ Main
 Ryan S. Laird {#title}
 --------------------------------------------------------------------------------
 
-```{r}
+```{r, include=FALSE}
 # Note the special double pipe so we modify the CV object in place
 CV %<>% print_text_block("intro") 
 ```
@@ -114,6 +113,9 @@ Professional Experience {data-icon=suitcase}
 CV %<>% print_section('professional_experience')
 ```
 
+<br>
+<br>
+<br>
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
@@ -129,7 +131,6 @@ Publications, Talks, and Posters {data-icon=book}
 ```{r}
 CV %<>% print_section('pubs')
 ```
-
 
 
 ```{r}
