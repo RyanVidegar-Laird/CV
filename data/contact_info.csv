@@ -1,3 +1,5 @@
-Id of contact section,Icon used from font-awesome 4 to label this contact section,The actual value written for the contact entry
 loc,icon,contact
 email,envelope,Ryan.Laird@outlook.com
+phone,mobile-phone,(717)-330-4658
+github,github,[GitHub](https://github.com/ryanvidegar-laird)
+orcid,orcid,[ORCID](https://orcid.org/0000-0002-0990-7616)

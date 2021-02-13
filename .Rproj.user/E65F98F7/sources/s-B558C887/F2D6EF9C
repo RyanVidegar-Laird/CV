@@ -3,19 +3,22 @@
     "path": "~/CV/render_cv.r",
     "project_path": "render_cv.r",
     "type": "r_source",
-    "hash": "3371531995",
+    "hash": "0",
     "contents": "",
     "dirty": false,
     "created": 1613168511242.0,
     "source_on_save": false,
     "relative_order": 2,
-    "properties": {},
+    "properties": {
+        "cursorPosition": "21,0",
+        "scrollLine": "0"
+    },
     "folds": "",
-    "lastKnownWriteTime": 1613168510,
+    "lastKnownWriteTime": 1613183053,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1613168510,
+    "last_content_update": 1613183053838,
     "read_only": false,
     "read_only_alternatives": []
 }

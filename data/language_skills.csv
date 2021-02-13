@@ -1,6 +1,5 @@
-Name of language,Relative numeric level of skill
 skill,level
-R,7.5
-Python,5.5
-Bash,3.5
-SQL,2
+R,4
+Python,3
+Bash,2
+SQL,1
